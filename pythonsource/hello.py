@@ -7,5 +7,15 @@ print("Hello")
 # 변수 : 프로그램 내부에서 값을 담아놓기 위한 공간(이름 사용 필수)
 
 # \n == enter
-multiline = "life is too short\nYou need python"
-print(multiline)
+# multiline = "life is too short\nYou need python"
+# print(multiline)
+# import mod1
+# print(mod1.add(5,3))
+# print(mod1.sub(5,3))
+
+# from mod1 import add
+# print(add(3,7))
+# * : 모두
+from mod1 import *
+print(add(3,7))
+print(sub(3,7))
